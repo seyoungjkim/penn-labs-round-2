@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Penn Labs Round 2</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+
+<body>
+  <div class="wrapper">
+    <!-- creates the menu bar -->
+    <div class="nav">
+      <ul>
+        <li><a href="#" class="nav">Categories</a></li>
+        <li><a href="javascript:void(0)" class="nav active">Contact</a></li>
+        <li><a href="blog.html" class="nav">Blog</a></li>
+        <li><a href="projects.html" class="nav">Projects</a></li>
+        <li><a href="cart.html" class="nav">About</a></li>
+        </li>
+      </ul>
+    </div>
+
+    <!-- creates the form -->
+    <div class="main">
+      <h1>Instantly reach us by filling out the form below</h1>
+      <form>
+        <!-- use table in order to align text -->
+        <table class="centered">
+          <!-- treats each line as a table row and each submission box as a table element -->
+          <tr>
+            <td class="left"> Hi there, my name is <input type="text" name="name" value="how people call you"> </td>
+            <td class="right"> I want to speak about <input type="text" name="problem" value="what's the problem"> </td>
+          </tr>
+          <tr>
+            <td class="left"> You can reach me via email at <input type="text" name="email" value="the real one"></td>
+            <td class="right"> or <input type="text" name="phone" value="skype, phone, username"> </td>
+          </tr>
+          <tr>
+            <td class="left">My ballpark for this project is <input type="text" name="price" value="$$$$$"></td>
+            <td class="right">US dollars.</td>
+          </tr>
+        </table>
+        <p>
+          <input type="submit" name="submit" value="Submit" />
+        </p>
+    </div>
+
+    <!-- creates the contents of the cart -->
+    <div id="expand" style="display:none">
+      <div class="cart-contents">
+        <h2>CART</h2> You bought too much shit. Get your life together!
+      </div>
+    </div>
+
+    <!-- creates the button to open the cart -->
+    <button class="cart">
+      <a href="javascript:;" onclick=changeVisibility("expand")>
+        Cart
+      </a>
+    </button>
+
+  </div>
+</body>
+</html>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
